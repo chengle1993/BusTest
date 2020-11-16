@@ -18,6 +18,9 @@ void send(sdbus::Connection* conn, sdbus::string content)
 	}
 }
 
+/*
+*请求与相应实例
+*/
 int main(int argc, char* argv[])
 {
 	engine::qpid::EngineInitializer qpid_engine;
